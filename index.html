@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Minecraft Add-ons</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Minecraft Add-ons</h1>
+    <nav>
+      <ul>
+        <li><a href="#top-addons">Top Add-ons</a></li>
+        <li><a href="#latest">Latest Uploads</a></li>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="upload">
+      <h2>Upload Your Add-on</h2>
+      <form>
+        <input type="file" name="addon" required>
+        <input type="text" name="name" placeholder="Add-on Name" required>
+        <textarea name="description" placeholder="Description"></textarea>
+        <button type="submit">Upload</button>
+      </form>
+    </section>
+
+    <section id="top-addons">
+      <h2>Top Add-ons</h2>
+      <div class="addons-grid">
+        <!-- Addons displayed here -->
+      </div>
+    </section>
+
+    <section id="resources">
+      <h2>Resources</h2>
+      <ul>
+        <li>
+          <span>Resource Pack 1</span>
+          <button>Download</button>
+        </li>
+        <li>
+          <span>Resource Pack 2</span>
+          <button>Download</button>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Minecraft Add-ons</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
